@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5eee6;
+    color: #3e2723;
+}
+
+header {
+    background-color: #5d4037;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+body > p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+h2 + br {
+    display: none;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+div {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+h4, h5, h6 {
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+div p:last-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#Endereço, 
+div#Contato {
+    position: fixed;
+    right: 20px;
+    width: 250px;
+    margin: 0;
+    padding: 15px;
+}  
+
+div#Endereço {
+    bottom: 150px; 
+}  
+
+div#Contato {
+    bottom: 20px; 
+}
