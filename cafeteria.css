@@ -93,3 +93,8 @@ div#Endereço {
 div#Contato {
     bottom: 20px; 
 }
+
+div:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
